@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-lazy-init="true">
+
+    <bean id="webSearchModule" class="org.jtheque.films.websearch.WebSearchModule" lazy-init="false">
+        <property name="choiceActions">
+            <list>
+                <bean class="org.jtheque.films.websearch.choice.impl.AllocineChoiceAction"/>
+                <bean class="org.jtheque.films.websearch.choice.impl.GoogleChoiceAction"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="searchFilmOnGoogleAction" class="org.jtheque.films.websearch.view.actions.AcSearchOnWeb">
+        <constructor-arg value="jtheque.actions.google"/>
+        <constructor-arg value="google"/>
+        <constructor-arg value="Films"/>
+    </bean>
+
+    <bean id="searchFilmOnAllocineAction" class="org.jtheque.films.websearch.view.actions.AcSearchOnWeb">
+        <constructor-arg value="jtheque.actions.allocine"/>
+        <constructor-arg value="allocine"/>
+        <constructor-arg value="Films"/>
+    </bean>
+
+    <bean id="searchActorOnGoogleAction" class="org.jtheque.films.websearch.view.actions.AcSearchOnWeb">
+        <constructor-arg value="jtheque.actions.google"/>
+        <constructor-arg value="google"/>
+        <constructor-arg value="Actors"/>
+    </bean>
+
+    <bean id="searchActorOnAllocineAction" class="org.jtheque.films.websearch.view.actions.AcSearchOnWeb">
+        <constructor-arg value="jtheque.actions.allocine"/>
+        <constructor-arg value="allocine"/>
+        <constructor-arg value="Actors"/>
+    </bean>
+
+    <bean id="searchRealizerOnGoogleAction" class="org.jtheque.films.websearch.view.actions.AcSearchOnWeb">
+        <constructor-arg value="jtheque.actions.google"/>
+        <constructor-arg value="google"/>
+        <constructor-arg value="Realizers"/>
+    </bean>
+
+    <bean id="searchRealizerOnAllocineAction" class="org.jtheque.films.websearch.view.actions.AcSearchOnWeb">
+        <constructor-arg value="jtheque.actions.allocine"/>
+        <constructor-arg value="allocine"/>
+        <constructor-arg value="Realizers"/>
+    </bean>
+
+</beans>
