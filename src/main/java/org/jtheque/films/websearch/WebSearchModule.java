@@ -27,6 +27,7 @@ import org.jtheque.films.IFilmsModule;
 import org.jtheque.films.utils.Constants;
 import org.jtheque.primary.view.impl.choice.ChoiceAction;
 import org.jtheque.primary.view.impl.choice.ChoiceActionFactory;
+import org.jtheque.utils.collections.ArrayUtils;
 
 import javax.annotation.Resource;
 
@@ -134,6 +135,6 @@ public final class WebSearchModule {
      * @param choiceActions The choice actions.
      */
     public void setChoiceActions(ChoiceAction[] choiceActions) {
-        this.choiceActions = choiceActions;
+        this.choiceActions = ArrayUtils.copyOf(choiceActions);
     }
 }
