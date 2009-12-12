@@ -2,6 +2,11 @@ Versions
 
     This document present the different versions of JTheque Web Search Module. 
 
+* 1.4.1 05.12.2009 Switch to JTheque Core 2.0.2
+
+    * Switch to JTheque Core 2.0.2
+    * Refactorings of the code base
+
 * 1.4 24.09.2009 Switch to JTheque Core 2.0, Maven 2
 
     * Switch to JTheque Core 2.0

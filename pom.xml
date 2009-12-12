@@ -17,7 +17,7 @@
     <packaging>jar</packaging>
     <name>JTheque WebSearch Module</name>
     <description>Module permettant de rechercher des films, acteurs et rÃ©alisateurs sur le net</description>
-    <version>1.4.1-SNAPSHOT</version>
+    <version>1.4.1</version>
 
     <url>http://jtheque.developpez.com/collections/websearch</url>
 
@@ -103,7 +103,7 @@
         <dependency>
             <groupId>org.jtheque</groupId>
             <artifactId>jtheque-films-module</artifactId>
-            <version>1.4.1-SNAPSHOT</version>
+            <version>1.4.1</version>
         </dependency>
     </dependencies>
 

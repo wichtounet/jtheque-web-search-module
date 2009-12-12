@@ -1,9 +1,27 @@
-Télécharger JTheque Web Search Module 1.4
+Télécharger JTheque Web Search Module 1.4.1
 
    JTheque Web Search Module est distribué sous forme d'une archive Jar, les sources de JTheque Web Search Module sont 
    distribués sous plusieurs formes pour votre convenance. 
 
-   JTheque Web Search Module 1.4 est distribué sous licence {{{http://www.gnu.org/copyleft/gpl.html} GNU General Public License, version 3}}.
+   JTheque Web Search Module 1.4.1 est distribué sous licence {{{http://www.gnu.org/copyleft/gpl.html} GNU General Public License, version 3}}.
+
+*-------------------------+---------+----------------+-----------------+
+|                         |  Lien   | Checksum (MD5) | Checksum (SHA1) |
+*-------------------------+---------+----------------+-----------------+
+| JTheque Web Search Module 1.4.1 (jar)                | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1.jar} jtheque-org.jtheque.films.websearch-module-1.4.1.jar}} | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1.jar.md5} jtheque-org.jtheque.films.websearch-module-1.4.1.jar.md5}} | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1.jar.sha1} jtheque-org.jtheque.films.websearch-module-1.4.1.jar.sha1}} | 
+*-------------------------+---------+----------------+-----------------+
+| JTheque Web Search Module 1.4.1 (Source tar.bz2)     | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.bz2} jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.bz2}} | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.bz2.md5} jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.bz2.md5}} | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.bz2.sha1} jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.bz2.sha1}} | 
+*-------------------------+---------+----------------+-----------------+
+| JTheque Web Search Module 1.4.1 (Source tar.gz)      | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.gz} jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.gz}} | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.gz.md5} jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.gz.md5}} | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.gz.sha1} jtheque-org.jtheque.films.websearch-module-1.4.1-src.tar.gz.sha1}} | 
+*-------------------------+---------+----------------+-----------------+
+| JTheque Web Search Module 1.4.1 (Source zip)         | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1-src.zip} jtheque-org.jtheque.films.websearch-module-1.4.1-src.zip}} | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1-src.zip.md5} jtheque-org.jtheque.films.websearch-module-1.4.1-src.zip.md5}} | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1.jar.sha1} jtheque-org.jtheque.films.websearch-module-1.4.1-src.zip.sha1}} | 
+*-------------------------+---------+----------------+-----------------+
+| JTheque Web Search Module 1.4.1 (Javadoc jar)        | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1-javadoc.jar} jtheque-org.jtheque.films.websearch-module-1.4.1.jar}} | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1-javadoc.jar.md5} jtheque-org.jtheque.films.websearch-module-1.4.1-javadoc.jar.md5}} | {{{http://jtheque.developpez.com/repository/org/jtheque/jtheque-org.jtheque.films.websearch-module/1.4.1/jtheque-org.jtheque.films.websearch-module-1.4.1-javadoc.jar.sha1} jtheque-org.jtheque.films.websearch-module-1.4.1-javadoc.jar.sha1}} | 
+*-------------------------+---------+----------------+-----------------+
+| Release Notes           | {{{versions.html} 1.4.1}} | | |
+*-------------------------+---------+----------------+-----------------+
+
+* {JTheque Web Search Module 1.4}
 
 *-------------------------+---------+----------------+-----------------+
 |                         |  Lien   | Checksum (MD5) | Checksum (SHA1) |

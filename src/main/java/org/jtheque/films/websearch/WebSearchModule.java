@@ -37,7 +37,7 @@ import javax.annotation.Resource;
  * @author Baptiste Wicht
  */
 @Module(id = "jtheque-websearch-module", i18n = "classpath:org/jtheque/films/websearch/i18n/web",
-        version = "1.4.1-SNAPSHOT", core = "2.0.2", jarFile = "jtheque-websearch-module-1.4.1-SNAPSHOT.jar",
+        version = "1.4.1", core = "2.0.2", jarFile = "jtheque-websearch-module-1.4.1.jar",
         dependencies = {"jtheque-films-module"}, updateURL = "http://jtheque.developpez.com/public/versions/WebSearchModule.versions")
 public final class WebSearchModule {
     private Feature webFilmFeature;
