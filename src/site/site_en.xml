@@ -18,7 +18,9 @@
             <item name="JTheque Web Search Module" href="http://jtheque.developpez.com/collections/org.jtheque.films.websearch/"/>
         </breadcrumbs>
 
-        <menu ref="parent"/>
+        <menu name="Parent">
+            <item name="JTheque Collections" href="http://jtheque.developpez.com/collections/en/"/>
+        </menu>
 
         <menu name="JTheque Web Search Module">
             <item name="Overview" href="index.html"/>
