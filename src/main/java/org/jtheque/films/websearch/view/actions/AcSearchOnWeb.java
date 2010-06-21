@@ -8,6 +8,7 @@ import org.jtheque.films.websearch.WebSearchModule;
 import org.jtheque.primary.controller.able.IChoiceController;
 
 import javax.annotation.Resource;
+
 import java.awt.event.ActionEvent;
 
 /*

@@ -16,7 +16,7 @@
             <item name="JTheque Collections" href="http://jtheque.developpez.com/collections/"/>
             <item name="JTheque Web Search Module" href="http://jtheque.developpez.com/collections/websearch/"/>
         </breadcrumbs>
-        
+
         <menu name="JTheque Web Search Module">
             <item name="Introduction" href="index.html"/>
             <item name="News" href="news.html"/>
