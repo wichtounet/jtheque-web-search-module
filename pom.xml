@@ -9,17 +9,31 @@
     <groupId>org.jtheque</groupId>
     <artifactId>org.jtheque.websearch-module</artifactId>
     <packaging>jar</packaging>
-    <name>JTheque WebSearch Module</name>
-    <description>Module permettant de rechercher des films, acteurs et réalisateurs sur le net</description>
+    <name>jtheque-websearch-module</name>
     <version>1.4.1</version>
 
-    <url>http://jtheque.developpez.com/collections/websearch</url>
+    <url>http://github.com/wichtounet/jtheque-websearch-module</url>
+
+    <ciManagement>
+        <system>Hudson</system>
+        <url>http://wichtounet.homedns.org:8280/hudson/</url>
+    </ciManagement>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>http://github.com/wichtounet/jtheque-websearch-module/issues</url>
+    </issueManagement>
+
+    <scm>
+        <url>http://github.com/wichtounet/jtheque-websearch-module</url>
+        <connection>scm:git:git@github.com:wichtounet/jtheque-websearch-module.git</connection>
+    </scm>
 
     <distributionManagement>
         <site>
-            <id>jtheque-web-server</id>
-            <name>JTheque FTP Server</name>
-            <url>ftp://developpez.com/collections/websearch</url>
+            <id>bw-web-server</id>
+            <name>BW FTP Server</name>
+            <url>ftp://baptiste-wicht.com/jtheque/websearch</url>
         </site>
         <repository>
             <id>Server-PC-releases</id>
@@ -33,34 +47,7 @@
         </snapshotRepository>
     </distributionManagement>
 
-    <repositories>
-        <repository>
-            <id>JTheque</id>
-            <url>http://jtheque.developpez.com/repository</url>
-        </repository>
-        <repository>
-            <id>Version99</id>
-            <name>Version 99 Does Not Exist Maven repository</name>
-            <layout>default</layout>
-            <url>http://no-commons-logging.zapto.org/mvn2</url>
-        </repository>
-    </repositories>
-
-    <issueManagement>
-        <system>Redmine</system>
-        <url>http://projets.developpez.com/projects/jtheque-wsearch-mod/issues</url>
-    </issueManagement>
-
-    <scm>
-        <url>http://wichtounet.homedns.org/svn/jtheque-websearch-module/</url>
-        <connection>scm:svn:http://wichtounet.homedns.org/svn/jtheque-websearch-module/</connection>
-    </scm>
-
     <build>
-        <directory>${env.BUILD_HOME}/modules/jtheque-websearch-module</directory>
-
-        <outputDirectory>${env.BUILD_HOME}/modules/jtheque-websearch-module/classes</outputDirectory>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -179,8 +166,8 @@
 
     <licenses>
         <license>
-            <name>GNU GPL V3</name>
-            <url>http://www.gnu.org/copyleft/gpl.html</url>
+            <name>Apache License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
